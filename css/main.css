@@ -1,0 +1,114 @@
+body{
+	background-color: #fff;     
+	color: #999;
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration : none;
+}
+#wrapper{     
+	background-color: #fff; 
+	max-width: 940px;     
+	margin: 0 auto;
+	padding: 0.5%; 
+} 
+li{     
+	list-style: none; 
+} 
+#logo{     
+	width: 150px; 
+	text-decoration: center; 
+} 
+nav a{     
+	color: #fff; 
+} 
+header{     
+	background: #1e2d3c; 
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0; 
+	width: 100%; 
+} 
+header a{     
+	text-align: center;     
+	margin : 0 auto; 
+    display: block;
+}
+nav{     
+	background: #111921; 
+	text-align: center;     
+	padding: 10px 0;     
+	margin: 20px 0 0;
+} 
+nav a.selected, nav a:hover{     
+	color: #43acd4; 
+} 
+footer{     
+	font-size: 0.75em;     
+	text-align: center;     
+	padding-top: 50px; 
+	color: #ccc;
+	clear: both; 
+}
+img{     
+	max-width: 100%; 
+}
+#gallery{     
+	margin: 0;    
+	padding: 0;     
+	list-style: none; 
+ } 
+ #gallery li{     
+	float: left;
+	width: 45%; 
+	margin: 2.5%; 
+	background-color: #f5f5f5;     
+	color: #bdc3c7; 
+} 
+nav ul{     
+margin: 0.10px;     
+padding: 0; 
+}
+nav li{     
+	display: inline-block; 
+	font-weight: 800; 
+	padding: 10px 10px
+}
+.social-icon{     
+	width: 45px;     
+	height: 45px;     
+	margin: 0 -2px;
+}
+.profile-photo{     
+	display: block;     
+	max-width: 150px;  
+	height: 150px;     
+	margin: 0 auto 30px;     
+	border-radius: 100%; 
+}
+.contact-info{     
+	list-style: none;     
+	padding: 0;     
+	margin: 0;     
+	font-size: 0.9em; 
+} 	
+.contact-info li.phone a{     
+background-image: url(../images/telepon.png); 
+} 
+ 
+.contact-info li.mail a{     
+background-image: url(../images/gmail.png); 
+} 
+ 
+.contact-info li.twitter a{     
+background-image: url(../images/twitter.png); 
+} 
+.contact-info a{  
+display: block; 
+ min-height: 20px;  
+ background-repeat: no-repeat; 
+ background-size: 20px 20px;  
+ padding: 0 0 0 30px; 
+ margin: 0 0 10px; 
+ } 
+ 
+ 
