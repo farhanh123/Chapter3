@@ -5,6 +5,7 @@ body{
 }
 a{
 	text-decoration : none;
+	color:black;
 }
 #wrapper{     
 	background-color: #fff; 
@@ -65,8 +66,8 @@ img{
 	color: #bdc3c7; 
 } 
 nav ul{     
-margin: 0.10px;     
-padding: 0; 
+	margin: 0.10px;     
+	padding: 0; 
 }
 nav li{     
 	display: inline-block; 
@@ -92,23 +93,23 @@ nav li{
 	font-size: 0.9em; 
 } 	
 .contact-info li.phone a{     
-background-image: url(../images/telepon.png); 
+	background-image: url(../images/telepon.png); 
 } 
  
 .contact-info li.mail a{     
-background-image: url(../images/gmail.png); 
+	background-image: url(../images/gmail.png); 
 } 
  
 .contact-info li.twitter a{     
-background-image: url(../images/twitter.png); 
+	background-image: url(../images/twitter.png); 
 } 
 .contact-info a{  
-display: block; 
- min-height: 20px;  
- background-repeat: no-repeat; 
- background-size: 20px 20px;  
- padding: 0 0 0 30px; 
- margin: 0 0 10px; 
+	display: block; 
+	min-height: 20px;  
+	background-repeat: no-repeat; 
+	background-size: 20px 20px;  
+	padding: 0 0 0 30px; 
+	margin: 0 0 10px; 
  } 
  
  
