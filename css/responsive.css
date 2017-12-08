@@ -1,6 +1,6 @@
 @media screen and (min-width:480px){     
 body{         
-	background: darkred;     
+	background: #EC7357;     
 }
 #gallery li{        
 	width: 28.3%;
@@ -10,22 +10,37 @@ body{
 }
 .profile-photo{        
 	float: left;         
-	margin: 0 5% 80px 0;     
-}         
+	margin: 0 5% 50px 20px;     
+	width: 75%;
+}
+#bb{
+	width: 40%;
+	float:left;
+}
+#ff{
+	width: 60%;
+	float : right;
+}
 #primary{
-	
-	width: 50%;         
+	width: 60%;         
 	float: left;
 }      	    
 #secondary{         
-	width: 40%;         
+	width: 39%;         
 	float: right;     
-}    
+}
+.form-inline .input-group {
+    display: block;
+}  
+#gg{
+	float: right;
+	width:60%;
+	margin: 0 auto;
+}   
 }
 @media screen and (min-width: 660px){     
 body{ 
-	background: purple;
-	
+	background: #FDD692;
 } 
 #logo{         
 	float: left;         
@@ -41,11 +56,26 @@ nav {
    margin-right: 5%;     
    text-align: right;     
    width: 45%;        
-   margin-bottom: 20px;     
+   margin-bottom: 20px; 
 }
+header a{
+	color: white;
+}
+}
+#primary.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
 }
 header{         
 	height: 100px; 
 	border-bottom: 5px solid #111921;         
-	margin-bottom: 60px;     
+	margin-bottom: 60px;
 }
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    width: 70%;
+    margin-bottom: 0;
+}
+
